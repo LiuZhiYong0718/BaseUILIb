@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="message_text">
+        <item name="android:layout_width">180dip</item>
+        <item name="android:layout_height">120dip</item>
+        <item name="android:background">#eee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="action_sheet_no_animation" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/actionsheet_bg_in</item>
+        <item name="@android:windowExitAnimation">@anim/actionsheet_bg_out</item>
+    </style>
+</resources>
